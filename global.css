@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-raleway: Raleway;
+  --font-pacifico: Pacifico;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+  --font-size-21xl: 40px;
+  --font-size-9xl-4: 28.4px;
+  --font-size-5xl: 24px;
+  --font-size-3xs: 10px;
+  --font-size-8xl-7: 27.7px;
+  --font-size-sm-9: 13.9px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-whitesmoke: #f2f5f9;
+  --color-gainsboro-100: #e3e3e3;
+  --color-aliceblue-100: #f2f7fc;
+  --color-aliceblue-200: #ebf2fa;
+  --color-aliceblue-300: #e1e8ef;
+  --color-silver: #b5b5b5;
+  --color-gray-100: #f8fbfb;
+  --color-gray-200: #1a1003;
+  --color-gray-300: #0b0909;
+  --color-gray-400: rgba(11, 9, 9, 0.5);
+  --color-gray-500: rgba(26, 16, 3, 0.5);
+  --color-gray-600: rgba(0, 0, 0, 0.85);
+  --color-antiquewhite: #ffeed9;
+  --color-white: #fff;
+  --color-lightgray: rgba(205, 205, 205, 0.5);
+  --color-slategray: #57657a;
+  --color-bisque: #ffe3bf;
+  --color-papayawhip: #ffebd1;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-9xs: 4px;
+  --gap-21xl: 40px;
+  --gap-11xs: 2px;
+  --gap-lgi: 19px;
+  --gap-13xl: 32px;
+  --gap-xs: 12px;
+  --gap-3xs-1: 9.1px;
+  --gap-5xs: 8px;
+  --gap-3xs-3: 9.3px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-3xs: 10px;
+  --padding-xl: 20px;
+  --padding-8xs: 5px;
+  --padding-11xs: 2px;
+  --padding-12xs: 1px;
+  --padding-7xs: 6px;
+  --padding-xl-7: 20.7px;
+  --padding-5xl-8: 24.8px;
+  --padding-11xs-7: 1.7px;
+  --padding-9xs-3: 3.3px;
+  --padding-10xs-5: 2.5px;
+  --padding-25xl: 44px;
+  --padding-9xs: 4px;
+  --padding-3xs-2: 9.2px;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-5xs: 8px;
+  --br-4xs-3: 8.3px;
+  --br-8xs: 5px;
+  --br-31xl: 50px;
+  --br-3xs-3: 9.3px;
+}
+
+@media only screen and (max-width:1080px) {
+  p.lead {
+      font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width:768px) {
+  p.lead {
+      font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  p.lead {
+      font-size: 1.7rem;
+  }
+}
