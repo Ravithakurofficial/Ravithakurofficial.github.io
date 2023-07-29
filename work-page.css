@@ -1,3 +1,33 @@
+/* Set the base font size (1rem = 10px) */
+html {
+  font-size: 62.5%; /* 1rem = 10px (10px/16px * 100%) */
+}
+
+/* Your existing CSS styles with pixel values converted to rem */
+
+/* ... (Your existing CSS styles with rem units) ... */
+
+/* Media Queries for Responsive Design */
+
+/* Mobile Devices (Up to 767px width) */
+@media (max-width: 767px) {
+  /* Adjust styles for smaller screens */
+}
+
+/* Tablet Devices (768px to 1023px width) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Adjust styles for tablet screens */
+}
+
+/* Desktop Devices (1024px and above width) */
+@media (min-width: 1024px) {
+  /* Adjust styles for desktop screens */
+}
+
+/* Additional Media Queries for Larger Screens if needed */
+
+
+
 .wambui1 {
   background: linear-gradient(180deg, #ff9c1a, #ed250a);
   -webkit-background-clip: text;
