@@ -79,9 +79,14 @@ body {
   --br-3xs-3: 0.58125rem; /* 9.3px / 16px */
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (min-width: 1080px) {
   p.lead {
     font-size: 1.7rem;
+  }
+  .header3{
+    margin-top: 1.125rem;
+    margin-left: 6.25rem;
+  
   }
 }
 
@@ -110,8 +115,9 @@ body {
     width: auto;
 
   }
-  .about-me-card1{
-    width: 51.25rem;
-
+  .header3{
+    margin-top: 0.1rem;
+    margin-left: 0.3rem;
   }
+
 }

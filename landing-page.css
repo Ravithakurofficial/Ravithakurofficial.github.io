@@ -45,8 +45,8 @@
 
 .header3 {
   position: absolute;
-  top: 1.125rem; /* Assuming 18px / 16px = 1.125rem */
-  left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
+  /* top: 1.125rem; Assuming 18px / 16px = 1.125rem */
+  /* left: 6.25rem; Assuming 100px / 16px = 6.25rem */
   width: 77.5rem; /* Assuming 1240px / 16px = 77.5rem */
   height: 6.5rem; /* Assuming 104px / 16px = 6.5rem */
   flex-direction: row;
