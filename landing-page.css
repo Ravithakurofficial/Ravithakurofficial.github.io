@@ -47,7 +47,7 @@
   position: absolute;
   /* top: 1.125rem; Assuming 18px / 16px = 1.125rem */
   /* left: 6.25rem; Assuming 100px / 16px = 6.25rem */
-  width: 77.5rem; /* Assuming 1240px / 16px = 77.5rem */
+  /*width: 77.5rem; /* Assuming 1240px / 16px = 77.5rem */
   height: 6.5rem; /* Assuming 104px / 16px = 6.5rem */
   flex-direction: row;
   padding: 2.75rem 0; /* Assuming --padding-25xl is 44px, 44px / 16px = 2.75rem */
@@ -435,8 +435,8 @@
 
 .profile-details3 {
   position: absolute;
-  top: 10.875rem; /* Assuming 174px / 16px = 10.875rem */
-  left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
+  /*top: 10.875rem; /* Assuming 174px / 16px = 10.875rem */
+  /*left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
   box-shadow: 0 0 0 0.0625rem transparent; /* Assuming 1px / 16px = 0.0625rem */
   width: 25rem; /* Assuming 400px / 16px = 25rem */
   height: 50rem; /* Assuming 800px / 16px = 50rem */
@@ -451,8 +451,8 @@
   border-radius: var(--br-xl);
   background-color: var(--color-white);
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
-  width: 51.25rem; /* Assuming 820px / 16px = 51.25rem */
-  height: 43.75rem; /* Assuming 700px / 16px = 43.75rem */
+  /*width: 51.25rem; /* Assuming 820px / 16px = 51.25rem */
+  /*height: 43.75rem; /* Assuming 700px / 16px = 43.75rem */
 }
 
 .about-me {
@@ -482,7 +482,7 @@
 .about-me-heading {
   position: absolute;
   top: 0.6875rem; /* Assuming 11px / 16px = 0.6875rem */
-  left: 5.125rem; /* Assuming 82px / 16px = 5.125rem */
+  /*left: 5.125rem; /* Assuming 82px / 16px = 5.125rem */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -692,10 +692,10 @@
 }
 .about-me-section {
   position: absolute;
-  top: 16.5rem; /* Assuming 264px / 16px = 16.5rem */
-  left: 31.875rem; /* Assuming 510px / 16px = 31.875rem */
-  width: 52.5rem; /* Assuming 840px / 16px = 52.5rem */
-  height: 45rem; /* Assuming 720px / 16px = 45rem */
+  /*top: 16.5rem; /* Assuming 264px / 16px = 16.5rem */
+  /*left: 31.875rem; /* Assuming 510px / 16px = 31.875rem */
+  /*width: 52.5rem; /* Assuming 840px / 16px = 52.5rem */
+  /*height: 45rem; /* Assuming 720px / 16px = 45rem */
   font-family: var(--font-poppins);
 }
 .nav-card3,
@@ -706,8 +706,8 @@
 }
 .nav-card3 {
   background-color: var(--color-aliceblue-100);
-  width: 31.4375rem; /* Assuming 503px / 16px = 31.4375rem */
-  height: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
+  /*width: 31.4375rem; /* Assuming 503px / 16px = 31.4375rem */
+  /*height: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
 }
 .rectangle-div {
   background: linear-gradient(91.49deg, #ff9c1a, #e80505);
@@ -799,12 +799,12 @@
   top: 0.625rem; /* Assuming 10px / 16px = 0.625rem */
   left: 1.9375rem; /* Assuming 31px / 16px = 1.9375rem */
   flex-direction: row;
-  gap: 1.31875rem; /* Assuming --gap-21xl is 21.1px / 16px = 1.31875rem */
+  /*gap: 1.31875rem; /* Assuming --gap-21xl is 21.1px / 16px = 1.31875rem */
   z-index: 1;
 }
 .navbar3 {
-  top: 10.25rem; /* Assuming 164px / 16px = 10.25rem */
-  left: 52.4375rem; /* Assuming 839px / 16px = 52.4375rem */
+  /*top: 10.25rem; /* Assuming 164px / 16px = 10.25rem */
+  /*left: 52.4375rem; /* Assuming 839px / 16px = 52.4375rem */
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.25);
   flex-direction: column;
   gap: 0.56875rem; /* Assuming --gap-3xs is 9.1px / 16px = 0.56875rem */

@@ -79,28 +79,79 @@ body {
   --br-3xs-3: 0.58125rem; /* 9.3px / 16px */
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 820px) {
   p.lead {
     font-size: 1.7rem;
   }
   .header3{
     margin-top: 1.125rem;
     margin-left: 6.25rem;
+    width: 77.5rem;
     justify-content: space-between;
   
   }
+  .navbar3{
+  top: 10.25rem; /* Assuming 164px / 16px = 10.25rem */
+  left: 52.4375rem; /* Assuming 839px / 16px = 52.4375rem */
+  }
+  .nav-card3{
+    width: 31.4375rem; /* Assuming 503px / 16px = 31.4375rem */
+    height: 6.25rem;
+  }
+  .nav-cards3{
+     gap: 1.31875rem;
+}
+.profile-details3{
+top: 10.875rem; /* Assuming 174px / 16px = 10.875rem */
+left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
+}
+.about-me-section{
+  margin-top: 16.5rem; /* Assuming 264px / 16px = 16.5rem */
+  margin-left: 31.875rem; /* Assuming 510px / 16px = 31.875rem */
+  width: 52.5rem; /* Assuming 840px / 16px = 52.5rem */
+  height: 45rem; /* Assuming 720px / 16px = 45rem */
+}
+.about-me-card1{
+  width: 51.25rem; /* Assuming 820px / 16px = 51.25rem */
+  height: 43.75rem; /* Assuming 700px / 16px = 43.75rem */
+}
+
+.about-me-heading{
+  margin-left: 18.35rem;
+}
+
 }
 
 @media only screen and (max-width: 768px) {
   p.lead {
     font-size: 1.7rem;
   }
-  .about-me-section {
-    margin-top: 110%;
-    margin-left: -79%;
-    display: flex;
-    flex-direction: column;
+ 
+  .header3{
+    margin-top: 0.1rem;
+    margin-left: 0.3rem;
+    width: 24.7rem;
+    justify-content: flex-start;
+    gap: 7rem;
   }
+  .navbar3{
+    top: 5.9rem; /* Assuming 164px / 16px = 10.25rem */
+    left: 0.1rem; /* Assuming 839px / 16px = 52.4375rem */
+  }
+  .nav-card3{
+
+  width: 28rem; /* Assuming 503px / 16px = 31.4375rem */
+  height: 6.25rem;
+}
+.nav-cards3{
+  gap: 1rem;
+}
+.profile-details3{
+  margin-top: 13.875rem;
+  margin-left: 0.25rem;
+}
+
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -108,19 +159,46 @@ body {
     font-size: 1.7rem;
   }
   
-  .about-me-section {
-    margin-top: 200%;
-    margin-left: -110%;
-    display: flex;
-    flex-direction: column;
-    width: auto;
 
-  }
   .header3{
     margin-top: 0.1rem;
     margin-left: 0.3rem;
+    width: 22.7rem;
     justify-content: flex-start;
-    gap: 5rem;
+    gap: 9.2rem;
+  }
+
+  .navbar3{
+    top: 7.25rem; /* Assuming 164px / 16px = 10.25rem */
+    left: 0.1rem; /* Assuming 839px / 16px = 52.4375rem */
+    }
+  .nav-card3{
+      width: 26rem; /* Assuming 503px / 16px = 31.4375rem */
+      height: 6.25rem;
+  }
+
+  .nav-cards3{
+    gap: 1.3rem;
+  }
+  .home-card3{
+    margin-left: -1rem;
+  }
+  .profile-details3{
+    margin-top: 13.875rem;
+    margin-left: 0.25rem;
+  }
+  .about-me-section{
+    margin-top: 64rem;
+    margin-left: -4.5rem;
+    width: 25.5rem;
+    height: 55rem;
+  }
+  .about-me-card1{
+    width: 30.25rem;
+    height: 43.75rem;
+  }
+  .about-me-heading{
+    margin-left: 9.125rem;
   }
 
 }
