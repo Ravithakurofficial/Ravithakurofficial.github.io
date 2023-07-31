@@ -79,7 +79,7 @@ body {
   --br-3xs-3: 0.58125rem; /* 9.3px / 16px */
 }
 
-@media only screen and (min-width: 820px) {
+@media only screen and (min-width: 780px) {
   p.lead {
     font-size: 1.7rem;
   }
@@ -114,11 +114,36 @@ left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
 .about-me-card1{
   width: 51.25rem; /* Assuming 820px / 16px = 51.25rem */
   height: 43.75rem; /* Assuming 700px / 16px = 43.75rem */
+  margin-top: 0.625rem;
 }
 
 .about-me-heading{
   margin-left: 18.35rem;
 }
+
+.about-me-details{
+  margin-top: 6.375rem;;
+}
+.about-subheading{
+  margin-top: 14.875rem;
+}
+.web-development2{
+  margin-top: 19.75rem;
+}
+.uiux-section{
+  margin-top: 31.8125rem;
+  margin-left: 5.1875rem;
+}
+
+.mentorship4 {
+  top: 31.8125rem;
+  left: 27.6875rem;
+}
+.app-development-section {
+  margin-top: 19.75rem;
+  margin-left: 27.6875rem;
+}
+
 
 }
 
@@ -126,31 +151,77 @@ left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
   p.lead {
     font-size: 1.7rem;
   }
- 
+  
+
   .header3{
     margin-top: 0.1rem;
     margin-left: 0.3rem;
-    width: 24.7rem;
+    width: 22.7rem;
     justify-content: flex-start;
-    gap: 7rem;
+    gap: 9.2rem;
   }
+
   .navbar3{
-    top: 5.9rem; /* Assuming 164px / 16px = 10.25rem */
-    left: 0.1rem; /* Assuming 839px / 16px = 52.4375rem */
-  }
+    top: 7.25rem; /* Assuming 164px / 16px = 10.25rem */
+    left: -0.5rem; /* Assuming 839px / 16px = 52.4375rem */
+    }
   .nav-card3{
+      width: 26rem; /* Assuming 503px / 16px = 31.4375rem */
+      height: 6.25rem;
+  }
 
-  width: 28rem; /* Assuming 503px / 16px = 31.4375rem */
-  height: 6.25rem;
-}
-.nav-cards3{
-  gap: 1rem;
-}
-.profile-details3{
-  margin-top: 13.875rem;
-  margin-left: 0.25rem;
-}
+  .nav-cards3{
+    gap: 1.3rem;
+  }
+  .home-card3{
+    margin-left: -1rem;
+  }
+  .profile-details3{
+    margin-top: 13.875rem;
+    margin-left: 0.25rem;
+  }
+  .about-me-section{
+    margin-top: 64rem;
+    margin-left: -4.5rem;
+    width: 25.5rem;
+    height: 55rem;
+  }
+  .about-me-card1{
+    width: 30.25rem;
+    height: 43.75rem;
+    margin-top: -0.9rem;
+  }
+  .about-me-heading{
+    margin-left: 9.125rem;
+  }
 
+  .about-me-details{
+    margin-top: 4.3rem;
+  }
+  .about-subheading{
+    margin-top: 28rem;
+  }
+  .web-development2{
+    margin-top: 32.75rem;
+  }
+  .web-development2{
+    margin-top: 51.75rem;
+  }
+  .uiux-section{
+    margin-top: 30.8125rem;
+    margin-left: 5.1875rem;
+  }
+
+  .mentorship4 {
+    margin-top: 62.8125rem;
+    margin-left: 5.6875rem;
+  }
+  .app-development-section {
+    margin-top: 40.75rem;
+    margin-left: 5.6875rem;
+  }
+
+}
 
 }
 
@@ -196,9 +267,33 @@ left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
   .about-me-card1{
     width: 30.25rem;
     height: 43.75rem;
+    margin-top: -0.9rem;
   }
   .about-me-heading{
     margin-left: 9.125rem;
   }
+  .about-me-details {
+    margin-top: 4.3rem;
+  }
+  .about-subheading{
+    margin-top: 28rem;
+  }
+  .web-development2{
+    margin-top: 51.75rem;
+  }
+  .uiux-section{
+    margin-top: 30.8125rem;
+    margin-left: 5.1875rem;
+  }
+
+  .mentorship4 {
+    margin-top: 62.8125rem;
+    margin-left: 5.6875rem;
+  }
+  .app-development-section {
+    margin-top: 40.75rem;
+    margin-left: 5.6875rem;
+  }
+
 
 }
