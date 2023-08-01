@@ -56,12 +56,12 @@
 }
 
 .profile-card3 {
-  top: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
+  /*top: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
   left: 0;
   background-color: var(--color-white);
   box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25); /* Assuming 4px / 16px = 0.25rem */
-  width: 25rem; /* 400px / 16px = 25rem */
-  height: 43.75rem; /* 700px / 16px = 43.75rem */
+  /*width: 25rem; /* 400px / 16px = 25rem */
+  /*height: 43.75rem; /* 700px / 16px = 43.75rem */
 }
 
 .contact-card9,
@@ -72,18 +72,18 @@
 }
 
 .contact-card9 {
-  top: 24rem; /* Assuming 384px / 16px = 24rem */
+  /*top: 24rem; /* Assuming 384px / 16px = 24rem */
   left: 1.5625rem; /* Assuming 25px / 16px = 1.5625rem */
   background-color: var(--color-whitesmoke);
-  width: 21.875rem; /* Assuming 350px / 16px = 21.875rem */
-  height: 21.875rem; /* Assuming 350px / 16px = 21.875rem */
+  /*width: 21.875rem; /* Assuming 350px / 16px = 21.875rem */
+  /*height: 21.875rem; /* Assuming 350px / 16px = 21.875rem */
 }
 
 .profile-picture-icon3 {
   top: -0.25rem; /* Assuming -4px / 16px = -0.25rem */
   left: 5.5rem; /* Assuming 88px / 16px = 5.5rem */
-  width: 13rem; /* Assuming 208px / 16px = 13rem */
-  height: 13rem; /* Assuming 208px / 16px = 13rem */
+  /*width: 13rem; /* Assuming 208px / 16px = 13rem */
+  /*height: 13rem; /* Assuming 208px / 16px = 13rem */
   object-fit: cover;
 }
 
@@ -94,7 +94,7 @@
 
 .name5 {
   position: absolute;
-  top: 13.375rem; /* Assuming 214px / 16px = 13.375rem */
+  /*top: 13.375rem; /* Assuming 214px / 16px = 13.375rem */
   left: calc(50% - 7.3125rem); /* Assuming (50% - 117px) / 16px = 7.3125rem */
   overflow: hidden;
   display: flex;
@@ -112,7 +112,7 @@
 }
 .career-details3 {
   position: absolute;
-  top: 15.875rem; /* Assuming 254px / 16px = 15.875rem */
+  /*top: 15.875rem; /* Assuming 254px / 16px = 15.875rem */
   left: calc(50% - 4.75rem); /* Assuming (76px / 16px) = 4.75rem */
   border-radius: 0.3125rem; /* Assuming --br-8xs is 5px, 5px / 16px = 0.3125rem */
   width: 9.5625rem; /* Assuming 153px / 16px = 9.5625rem */
@@ -213,8 +213,8 @@
 
 .social-media-icons3 {
   position: absolute;
-  top: 18.75rem; /* Assuming 300px / 16px = 18.75rem */
-  left: 3.625rem; /* Assuming 58px / 16px = 3.625rem */
+  /*top: 18.75rem; /* Assuming 300px / 16px = 18.75rem */
+  /*left: 3.625rem; /* Assuming 58px / 16px = 3.625rem */
   flex-direction: row;
   gap: 0.56875rem; /* Assuming --gap-3xs-1 is 9.1px / 16px = 0.56875rem */
 }
@@ -297,7 +297,7 @@
 
 .phone-group3 {
   position: absolute;
-  top: 26.0625rem; /* Assuming 417px / 16px = 26.0625rem */
+  /*top: 26.0625rem; /* Assuming 417px / 16px = 26.0625rem */
   left: 3.8125rem; /* Assuming 61px / 16px = 3.8125rem */
   width: 16rem; /* Assuming 256px / 16px = 16rem */
   height: 3.9375rem; /* Assuming 63px / 16px = 3.9375rem */
@@ -341,7 +341,7 @@
 
 .email-group3 {
   position: absolute;
-  top: 31rem; /* Assuming 496px / 16px = 31rem */
+  /*top: 31rem; /* Assuming 496px / 16px = 31rem */
   left: 3.625rem; /* Assuming 58px / 16px = 3.625rem */
   width: 18.875rem; /* Assuming 302px / 16px = 18.875rem */
   height: 3.9375rem; /* Assuming 63px / 16px = 3.9375rem */
@@ -404,7 +404,7 @@
 
 .location15 {
   position: absolute;
-  top: 35.9375rem; /* Assuming 575px / 16px = 35.9375rem */
+  /*top: 35.9375rem; /* Assuming 575px / 16px = 35.9375rem */
   left: 3.6875rem; /* Assuming 59px / 16px = 3.6875rem */
   width: 16rem; /* Assuming 256px / 16px = 16rem */
   height: 4.125rem; /* Assuming 66px / 16px = 4.125rem */
@@ -419,8 +419,8 @@
 
 .download-details3 {
   position: absolute;
-  top: 41.0625rem; /* Assuming 657px / 16px = 41.0625rem */
-  left: 6.6875rem; /* Assuming 107px / 16px = 6.6875rem */
+  /*top: 41.0625rem; /* Assuming 657px / 16px = 41.0625rem */
+  /*left: 6.6875rem; /* Assuming 107px / 16px = 6.6875rem */
   border-radius: var(--br-xl);
   background: linear-gradient(91.49deg, #ff9c1a, #e80505);
   display: flex;
@@ -438,9 +438,9 @@
   /*top: 10.875rem; /* Assuming 174px / 16px = 10.875rem */
   /*left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
   box-shadow: 0 0 0 0.0625rem transparent; /* Assuming 1px / 16px = 0.0625rem */
-  width: 25rem; /* Assuming 400px / 16px = 25rem */
-  height: 50rem; /* Assuming 800px / 16px = 50rem */
-  font-size: 1rem; /* Assuming --font-size-sm is 16px / 16px = 1rem */
+  /*width: 25rem; /* Assuming 400px / 16px = 25rem */
+  /*height: 50rem; /* Assuming 800px / 16px = 50rem */
+  /*font-size: 1rem; /* Assuming --font-size-sm is 16px / 16px = 1rem */
   color: var(--color-gray-500);
 }
 

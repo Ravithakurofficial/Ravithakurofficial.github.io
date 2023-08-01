@@ -102,8 +102,43 @@ body {
      gap: 1.31875rem;
 }
 .profile-details3{
-top: 10.875rem; /* Assuming 174px / 16px = 10.875rem */
+margin-top: 10.875rem; /* Assuming 174px / 16px = 10.875rem */
 left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
+width: 25rem;
+font-size: 1rem;
+height: 50rem;
+
+}
+.profile-card3{
+  width: 25rem;
+  margin-left: 0rem;
+  margin-top: 6.25rem;
+  height: 43.75rem;
+}
+.phone-group3{
+  margin-top: 26.0625rem;
+}
+.name5{
+  margin-top: 13.375rem;
+}
+.career-details3{
+  margin-top: 15.875rem;
+}
+.social-media-icons3{
+  margin-top: 18.75rem;
+  margin-left: 3.625rem;
+}
+.contact-card9{
+  width: 21.875rem;
+  margin-top: 24rem;
+  height: 21.875rem;
+}
+.profile-picture-icon3{
+  width: 13rem;
+  height: 13rem;
+}
+.email-group3{
+  margin-top: 31rem;
 }
 .about-me-section{
   margin-top: 16.5rem; /* Assuming 264px / 16px = 16.5rem */
@@ -143,6 +178,13 @@ left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
   margin-top: 19.75rem;
   margin-left: 27.6875rem;
 }
+.location15{
+  margin-top: 35.9375rem;
+}
+.download-details3{
+  margin-top: 41.0625rem;
+  margin-left: 6.6875rem;
+}
 
 
 }
@@ -151,27 +193,29 @@ left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
   p.lead {
     font-size: 1.7rem;
   }
-  
-
+  .download-details3{
+    margin-top: 36.0625rem;
+    margin-left: 5.6875rem;
+  }  
   .header3{
     margin-top: 0.1rem;
     margin-left: 0.3rem;
     width: 22.7rem;
     justify-content: flex-start;
-    gap: 9.2rem;
+    gap: 5.5rem;
   }
 
   .navbar3{
-    top: 7.25rem; /* Assuming 164px / 16px = 10.25rem */
+    top: 6.25rem; /* Assuming 164px / 16px = 10.25rem */
     left: -0.5rem; /* Assuming 839px / 16px = 52.4375rem */
     }
   .nav-card3{
-      width: 26rem; /* Assuming 503px / 16px = 31.4375rem */
+      width: 22.89rem; /* Assuming 503px / 16px = 31.4375rem */
       height: 6.25rem;
   }
 
   .nav-cards3{
-    gap: 1.3rem;
+    gap: 0.5rem;
   }
   .home-card3{
     margin-left: -1rem;
@@ -179,16 +223,47 @@ left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
   .profile-details3{
     margin-top: 13.875rem;
     margin-left: 0.25rem;
+    width: 22.89rem;
+    font-size: 0.8rem;
+    height: 43rem;
+  }
+  .profile-card3{
+    width: 21.5rem;
+    margin-left: 0.3rem;
+    top: 3.25rem;
+    height: 38.75rem;
+  }
+  .phone-group3{
+    margin-top: 21.0625rem;
+  }
+  .name5{
+    margin-top: 9.375rem; 
+  }
+  .career-details3{
+    margin-top: 11.875rem;
+  }
+  .social-media-icons3{
+    margin-top: 15.75rem;
+    margin-left: 1.625rem;
+  }
+  .contact-card9{
+    width: 18.875rem;
+    margin-top: 21rem;
+    height: 18.875rem;
+  }
+  .profile-picture-icon3{
+    width: 11rem;
+    height: 9rem;
   }
   .about-me-section{
-    margin-top: 64rem;
+    margin-top: 58rem;
     margin-left: -4.5rem;
-    width: 25.5rem;
+    width: 22.89rem;
     height: 55rem;
   }
   .about-me-card1{
-    width: 30.25rem;
-    height: 43.75rem;
+    width: 26.89rem;
+    height: 76.75rem;
     margin-top: -0.9rem;
   }
   .about-me-heading{
@@ -204,21 +279,28 @@ left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
   .web-development2{
     margin-top: 32.75rem;
   }
+  .email-group3{
+    margin-top: 26rem;
+  }
   .web-development2{
-    margin-top: 51.75rem;
+    margin-top: 52.75rem;
+    margin-left: 0.6rem;
   }
   .uiux-section{
     margin-top: 30.8125rem;
-    margin-left: 5.1875rem;
+    margin-left: 5.6875rem;
   }
 
   .mentorship4 {
-    margin-top: 62.8125rem;
+    margin-top: 63.8125rem;
     margin-left: 5.6875rem;
   }
   .app-development-section {
-    margin-top: 40.75rem;
+    margin-top: 41.75rem;
     margin-left: 5.6875rem;
+  }
+  .location15{
+    margin-top: 30.9375rem;
   }
 
 }
@@ -257,6 +339,38 @@ left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
   .profile-details3{
     margin-top: 13.875rem;
     margin-left: 0.25rem;
+    font-size: 0.8rem;
+    height: 43rem;
+  }
+  .profile-card3{
+    width: 21.5rem;
+    margin-left: 0.3rem;
+    height: 38.75rem;
+  }
+  .phone-group3{
+    margin-top: 21.0625rem;
+  }
+  .name5{
+    margin-top: 10.375rem; 
+  }
+  .career-details3{
+    margin-top: 11.875rem;
+  }
+  .contact-card9{
+    width: 18.875rem;
+    margin-top: 21rem;
+    height: 18.875rem;
+  }
+  .social-media-icons3{
+    margin-top: 15.75rem;
+    margin-left: 1.625rem;
+  }
+  .location15{
+    margin-top: 30.9375rem;
+  }
+  .profile-picture-icon3{
+    width: 11rem;
+    height: 9rem;
   }
   .about-me-section{
     margin-top: 64rem;
@@ -292,8 +406,15 @@ left: 6.25rem; /* Assuming 100px / 16px = 6.25rem */
   }
   .app-development-section {
     margin-top: 40.75rem;
+    margin-left : 5.6875rem;
+  }
+  .email-group3{
+    margin-top: 26rem;
+  }
+  .download-details3{
+    margin-top: 36.0625rem;
     margin-left: 5.6875rem;
   }
-
+  
 
 }
