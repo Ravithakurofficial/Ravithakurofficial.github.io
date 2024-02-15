@@ -15,8 +15,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap"
-    />
+      href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap">
   </head>
   <body>
     <div class="landing-page">
@@ -28,7 +27,7 @@
             <span> </span>
           </div>
         </div>
-        <div class="phmoon3">
+        <div class="phmoon3" id="darkmode">
           <img class="vector-icon27" alt="" src="./public/vector.svg" />
         </div>
       </div>
@@ -127,7 +126,11 @@
           <div class="download-resume3"><a href="./public/Ravi Resume.pdf" download>Download Resume</a></div>
         </div>
       </div>
-      <div class="about-me-section">
+
+
+
+
+      <div class="about-me-section" id="changecon">
         <div class="about-me-card1"></div>
         <div class="about-me-heading">
           <div class="about-me-wrapper">
@@ -273,7 +276,7 @@
             <div class="home6">
               <img class="code-icon" alt="" src="./public/home-icon1.svg" />
 
-              <div class="download-resume3">Home</div>
+              <div class="download-resume3" id="homeCardContainer">Home</div>
             </div>
           </div>
           <div class="resume-card4" id="resumeCardContainer">
@@ -304,8 +307,8 @@
       </div>
     </div>
 
-    <script>
-      var resumeCardContainer = document.getElementById("resumeCardContainer");
+    <script src="index.js">
+      /*var resumeCardContainer = document.getElementById("resumeCardContainer");
       if (resumeCardContainer) {
         resumeCardContainer.addEventListener("click", function (e) {
           window.location.href = "./resume-page.html";
@@ -324,7 +327,7 @@
         contactCardContainer.addEventListener("click", function (e) {
           window.location.href = "./contact-page.html";
         });
-      }
+      }*/
       </script>
   </body>
 </html>

@@ -1,3 +1,13 @@
+body.dark-mode {
+  background-color: var(--color-black);
+  color: var(--color-whitesmoke);
+}
+body.dark-mode {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
 .wambui {
   background: linear-gradient(180deg, #ff9c1a, #ed250a);
   -webkit-background-clip: text;
